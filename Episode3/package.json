@@ -1,0 +1,21 @@
+{
+  "name": "skill-sample-js-trivia",
+  "version": "2.0.0",
+  "description": "A simple trivia skill i18n version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "trivia"
+  ],
+  "author": "Amazon.com",
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "dependencies": {
+    "ask-sdk": "^2.0.0",
+    "i18next": "^10.6.0",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  }
+}

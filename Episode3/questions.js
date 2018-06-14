@@ -7,7 +7,7 @@ module.exports = {
    */
   QUESTIONS_EN_GB: [
     {
-      'What year was a cloud guru founded?': [
+      'What year was A Cloud Guru founded?': [
         '2015',
         '2014',
         '2016',
@@ -15,7 +15,7 @@ module.exports = {
       ],
     },
     {
-      'who was the first hire at a cloud guru? ': [
+      'Who was the first hire at A Cloud Guru? ': [
         'Peter',
         'Nick',
         'Alicia',
@@ -25,7 +25,7 @@ module.exports = {
       ],
     },
     {
-      'Ryan founded a cloud guru after failing an interview at which company?': [
+      'Ryan founded A Cloud Guru after failing an interview at which company?': [
         'AWS',
         'Rackspace',
         'Tesla',
@@ -33,7 +33,7 @@ module.exports = {
       ],
     },
     {
-      'What was the first training course released by a cloud guru?': [
+      'What was the first training course released by A Cloud Guru?': [
         'Solutions Architect Associate',
         'Developer Associate',
         'Sysops Associate',
@@ -42,7 +42,7 @@ module.exports = {
       ],
     },
     {
-      'Where are the a cloud guru developers located?': [
+      'Where are the A Cloud Guru developers located?': [
         'Melbourne',
         'Austin',
         'London',
@@ -52,7 +52,7 @@ module.exports = {
   ],
   QUESTIONS_EN_US: [
     {
-      'What year was a cloud guru founded?': [
+      'What year was A Cloud Guru founded?': [
         '2015',
         '2014',
         '2016',
@@ -60,7 +60,7 @@ module.exports = {
       ],
     },
     {
-      'who was the first hire at a cloud guru? ': [
+      'Who was the first hire at A Cloud Guru? ': [
         'Peter',
         'Nick',
         'Alicia',
@@ -70,7 +70,7 @@ module.exports = {
       ],
     },
     {
-      'Ryan founded a cloud guru after failing an interview at which company?': [
+      'Ryan founded A Cloud Guru after failing an interview at which company?': [
         'AWS',
         'Rackspace',
         'Tesla',
@@ -78,7 +78,7 @@ module.exports = {
       ],
     },
     {
-      'What was the first training course released by a cloud guru?': [
+      'What was the first training course released by A Cloud Guru?': [
         'Solutions Architect Associate',
         'Developer Associate',
         'Sysops Associate',
@@ -87,7 +87,7 @@ module.exports = {
       ],
     },
     {
-      'Where are the a cloud guru developers located?': [
+      'Where are the A Cloud Guru developers located?': [
         'Melbourne',
         'Austin',
         'London',

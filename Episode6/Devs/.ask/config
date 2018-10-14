@@ -1,0 +1,60 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.de12743f-6f56-413c-aa93-8369e3c9fa44",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-Devs-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "d4b1802f40b3370aaf6163d14534b363"
+        }
+      }
+    },
+    "nick": {
+      "skill_id": "amzn1.ask.skill.29568bec-0ed8-4466-8c4e-6850dc305ff6",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-Devs-nick"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "f5cc55619dcf4cc6c14dfff29a7cc0da"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "0bdf307b14bc8b4351092b30f803fe27"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:127362029329:function:ask-custom-Devs-nick",
+            "functionName": "arn:aws:lambda:us-east-1:127362029329:function:ask-custom-Devs-nick",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "a1e8582b-f905-4794-93d1-d0db88ddcea0"
+          }
+        ]
+      }
+    }
+  }
+}

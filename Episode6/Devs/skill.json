@@ -1,0 +1,54 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Watch the \"Alexa Devs\" series from A Cloud Guru",
+          "examplePhrases": [
+            "Alexa, launch guru devs",
+            "Alexa, ask guru devs to play episode 1",
+            "Alexa, ask guru devs to play episode 6"
+          ],
+          "keywords": [
+            "alexa",
+            "skill",
+            "development",
+            "learning"
+          ],
+          "name": "Guru Devs",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6f38/c4a04e59e8054bb6bc13346beb624dbd/APP_ICON?versionId=0lB91DyHsSfD_HtJWxLL0gZaas8FuhAJ&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1536883190&Signature=%2B%2B2WfCWbD5xwpqFFYVmFIll6ADU%3D",
+          "description": "Watch the \"Alexa Devs\" series from A Cloud Guru",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/66f9/666a0330075e4bbcac62c37254319ef9/APP_ICON_LARGE?versionId=oByTygM4CGWFh5hPhTrA9_GR2Jq_SePB&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1536883190&Signature=CDE579XrQAipGJENqWX%2ByPGIQzE%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Alexa, ask devs for episode 3",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE",
+            "minimumTemplateVersion": "1.0"
+          },
+          {
+            "type": "VIDEO_APP"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
